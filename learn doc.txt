@@ -1,0 +1,27 @@
+1. data structure. arraylist and linkedhashmap 
+
+2. use empty class extended from father classes to realize encapsulation.
+
+3. learn how to write exception class that can be thrown, and helper methods to fix it
+
+reflection :
+
+1. interface will tell the users what methods are defined in the project without looking at the code directly
+
+?2. making it an abstract class and can be extended
+
+?3. 
+
+4. it is extensible and the core classes can be hidden from the outside
+
+5. create a custom exception class extended from Exception class, and define some fix methods in it.
+
+6. self-healing. after meeting the particular exception, it can be fixed by itself
+
+7. it can be shared between objects only if it is stated static
+
+8. advantage: it is convenient to use this property, and one OptionSet object can only have one choice. What’s more, after deleting one OptionSet, the choice is deleted as well.
+   
+   get method, that can call the getChoice method in OptionSet using index in Auto class
+
+9. just creating a static LinkedHashMap in Fleet class, then we can do CRUD operation for each Auto object here.

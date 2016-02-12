@@ -1,0 +1,11 @@
+make,model,base price,color,cost for color,transmission,cost for transmission,brakes,cost for brakes,air bags,cost for air bags,power moonroof,cost for power moonroof
+Focus,Wagon ZTW,18845,fort kox gold clearcoat metallic,0,automatic,0,standard,0,present,350,present,595
+Focus,Wagon ZTW,18445,liquid grey clearcoat metallic,0,standard,-815,ABS,400,none,0,none,0
+Focus,Wagon ZTW,18445,infra-red clearcoa,0,standard,-815,ABS with advance trac,1625,none,0,none,0
+Focus,Wagon ZTW,18445,grabber green clearcoat metallic,0,automatic,0,standard,0,present,350,present,595
+Focus,Wagon ZTW,18445,sangria red clearcoat metallic,0,automatic,0,standard,0,present,350,present,595
+Focus,Wagon ZTW,18445,french blue clearcoat metallic,0,automatic,0,standard,0,present,350,present,595
+Focus,Wagon ZTW,18445,twilight blue clearcoat metallic,0,automatic,0,standard,0,present,350,present,595
+Focus,Wagon ZTW,18445,cd silver clearcoat metallic,0,automatic,0,standard,0,present,350,present,595Focus,Wagon ZTW,18445,pitch black clearcoa,0,automatic,0,standard,0,present,350,present,595
+Focus,Wagon ZTW,18445,cloud 9 white clearcoat,0,automatic,0,standard,0,present,350,present,595
+cloud 9 white clearcoat,automatic,standard,none,present

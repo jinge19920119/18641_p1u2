@@ -1,0 +1,287 @@
+exception 1:
+
+AutoException ,errorno=1, errormsg=FileNotFound!
+make : Focus, model : Wagon ZTW, baseprice : 18845.0
+
+name : color
+fort kox gold clearcoat metallic , extra cost: 0.0 
+liquid grey clearcoat metallic , extra cost: 0.0 
+infra-red clearcoa , extra cost: 0.0 
+grabber green clearcoat metallic , extra cost: 0.0 
+sangria red clearcoat metallic , extra cost: 0.0 
+french blue clearcoat metallic , extra cost: 0.0 
+twilight blue clearcoat metallic , extra cost: 0.0 
+cd silver clearcoat metallic , extra cost: 0.0 
+pitch black clearcoa , extra cost: 0.0 
+cloud 9 white clearcoat , extra cost: 0.0 
+choice : cloud 9 white clearcoat
+
+name : transmission
+automatic , extra cost: 0.0 
+standard , extra cost: -815.0 
+choice : automatic
+
+name : brakes
+standard , extra cost: 0.0 
+ABS , extra cost: 400.0 
+ABS with advance trac , extra cost: 1625.0 
+choice : standard
+
+name : air bags
+present , extra cost: 350.0 
+none , extra cost: 0.0 
+choice : none
+
+name : power moonroof
+present , extra cost: 595.0 
+none , extra cost: 0.0 
+choice : present
+
+********************************
+
+
+exception 2:(readFile2 )(delete something in one line compared to readFile1)(in 2nd line)
+
+AutoException ,errorno=2, errormsg=MissingData!!
+make : Focus, model : Wagon ZTW, baseprice : 18445.0
+
+name : color
+liquid grey clearcoat metallic , extra cost: 0.0 
+infra-red clearcoa , extra cost: 0.0 
+grabber green clearcoat metallic , extra cost: 0.0 
+sangria red clearcoat metallic , extra cost: 0.0 
+french blue clearcoat metallic , extra cost: 0.0 
+twilight blue clearcoat metallic , extra cost: 0.0 
+cd silver clearcoat metallic , extra cost: 0.0 
+pitch black clearcoa , extra cost: 0.0 
+cloud 9 white clearcoat , extra cost: 0.0 
+choice : cloud 9 white clearcoat
+
+name : transmission
+standard , extra cost: -815.0 
+automatic , extra cost: 0.0 
+choice : automatic
+
+name : brakes
+ABS , extra cost: 400.0 
+ABS with advance trac , extra cost: 1625.0 
+standard , extra cost: 0.0 
+choice : standard
+
+name : air bags
+none , extra cost: 0.0 
+present , extra cost: 350.0 
+choice : none
+
+name : power moonroof
+none , extra cost: 0.0 
+present , extra cost: 595.0 
+choice : present
+
+
+**********************************
+
+exception 3:(readFile3 )(delete one base price compared to readFile1)(in 4th line)
+
+AutoException ,errorno=3, errormsg=MissingBasePrice!!
+make : Focus, model : Wagon ZTW, baseprice : 18845.0
+
+name : color
+fort kox gold clearcoat metallic , extra cost: 0.0 
+liquid grey clearcoat metallic , extra cost: 0.0 
+grabber green clearcoat metallic , extra cost: 0.0 
+sangria red clearcoat metallic , extra cost: 0.0 
+french blue clearcoat metallic , extra cost: 0.0 
+twilight blue clearcoat metallic , extra cost: 0.0 
+cd silver clearcoat metallic , extra cost: 0.0 
+pitch black clearcoa , extra cost: 0.0 
+cloud 9 white clearcoat , extra cost: 0.0 
+choice : cloud 9 white clearcoat
+
+name : transmission
+automatic , extra cost: 0.0 
+standard , extra cost: -815.0 
+choice : automatic
+
+name : brakes
+standard , extra cost: 0.0 
+ABS , extra cost: 400.0 
+choice : standard
+
+name : air bags
+present , extra cost: 350.0 
+none , extra cost: 0.0 
+choice : none
+
+name : power moonroof
+present , extra cost: 595.0 
+none , extra cost: 0.0 
+choice : present
+
+
+*****************************
+
+exception 4: (readFile4)(change one model name to another compared to readFile1)(in 4th line)
+
+
+AutoException ,errorno=4, errormsg=NotAllModelNamesSame!!
+make : Focus, model : Wagon ZTW, baseprice : 18845.0
+
+name : color
+fort kox gold clearcoat metallic , extra cost: 0.0 
+liquid grey clearcoat metallic , extra cost: 0.0 
+infra-red clearcoa , extra cost: 0.0 
+grabber green clearcoat metallic , extra cost: 0.0 
+sangria red clearcoat metallic , extra cost: 0.0 
+french blue clearcoat metallic , extra cost: 0.0 
+twilight blue clearcoat metallic , extra cost: 0.0 
+cd silver clearcoat metallic , extra cost: 0.0 
+pitch black clearcoa , extra cost: 0.0 
+cloud 9 white clearcoat , extra cost: 0.0 
+choice : cloud 9 white clearcoat
+
+name : transmission
+automatic , extra cost: 0.0 
+standard , extra cost: -815.0 
+choice : automatic
+
+name : brakes
+standard , extra cost: 0.0 
+ABS , extra cost: 400.0 
+ABS with advance trac , extra cost: 1625.0 
+choice : standard
+
+name : air bags
+present , extra cost: 350.0 
+none , extra cost: 0.0 
+choice : none
+
+name : power moonroof
+present , extra cost: 595.0 
+none , extra cost: 0.0 
+choice : present
+
+
+
+***********************************
+
+
+exception 5 :(readFile5)(make the last value in the 2nd last line changed)
+
+
+
+AutoException ,errorno=5, errormsg=SamePropertiesWithDifferentValues
+make : Focus, model : Wagon ZTW, baseprice : 18845.0
+
+name : color
+fort kox gold clearcoat metallic , extra cost: 0.0 
+liquid grey clearcoat metallic , extra cost: 0.0 
+infra-red clearcoa , extra cost: 0.0 
+grabber green clearcoat metallic , extra cost: 0.0 
+sangria red clearcoat metallic , extra cost: 0.0 
+french blue clearcoat metallic , extra cost: 0.0 
+twilight blue clearcoat metallic , extra cost: 0.0 
+cd silver clearcoat metallic , extra cost: 0.0 
+pitch black clearcoa , extra cost: 0.0 
+cloud 9 white clearcoat , extra cost: 0.0 
+choice : cloud 9 white clearcoat
+
+name : transmission
+automatic , extra cost: 0.0 
+standard , extra cost: -815.0 
+choice : automatic
+
+name : brakes
+standard , extra cost: 0.0 
+ABS , extra cost: 400.0 
+ABS with advance trac , extra cost: 1625.0 
+choice : standard
+
+name : air bags
+present , extra cost: 350.0 
+none , extra cost: 0.0 
+choice : none
+
+name : power moonroof
+present , extra cost: 595.0 
+none , extra cost: 0.0 
+choice : present
+
+
+**********************************
+
+
+test: (add “readFile1+.txt”)
+
+
+make : Focus, model : S90, baseprice : 18845.0
+
+name : color
+fort kox gold clearcoat metallic , extra cost: 0.0 
+liquid grey clearcoat metallic , extra cost: 0.0 
+infra-red clearcoa , extra cost: 0.0 
+grabber green clearcoat metallic , extra cost: 0.0 
+sangria red clearcoat metallic , extra cost: 0.0 
+french blue clearcoat metallic , extra cost: 0.0 
+twilight blue clearcoat metallic , extra cost: 0.0 
+cd silver clearcoat metallic , extra cost: 0.0 
+pitch black clearcoa , extra cost: 0.0 
+cloud 9 white clearcoat , extra cost: 0.0 
+choice : cloud 9 white clearcoat
+
+name : transmission
+automatic , extra cost: 0.0 
+standard , extra cost: -815.0 
+choice : automatic
+
+name : brakes
+standard , extra cost: 0.0 
+ABS , extra cost: 400.0 
+ABS with advance trac , extra cost: 1625.0 
+choice : standard
+
+name : air bags
+present , extra cost: 350.0 
+none , extra cost: 0.0 
+choice : none
+
+name : power moonroof
+present , extra cost: 595.0 
+none , extra cost: 0.0 
+choice : present
+make : Focus, model : S90, baseprice : 18845.0
+
+name : colorcolor
+fort kox gold clearcoat metallic , extra cost: 0.0 
+liquid grey clearcoat metallic , extra cost: 0.0 
+infra-red clearcoa , extra cost: 0.0 
+grabber green clearcoat metallic , extra cost: 0.0 
+sangria red clearcoat metallic , extra cost: 0.0 
+french blue clearcoat metallic , extra cost: 0.0 
+twilight blue clearcoat metallic , extra cost: 0.0 
+cd silver clearcoat metallic , extra cost: 0.0 
+pitch black clearcoa , extra cost: 0.0 
+cloud 9 white clearcoat , extra cost: 0.0 
+choice : cloud 9 white clearcoat
+
+name : transmission
+automatic , extra cost: 0.0 
+standard , extra cost: -815.0 
+choice : automatic
+
+name : brakes
+standard , extra cost: 0.0 
+ABS , extra cost: 400.0 
+ABS with advance trac , extra cost: 1625.0 
+choice : standard
+
+name : air bags
+present , extra cost: 350.0 
+none , extra cost: 200.0 
+choice : none
+
+name : power moonroof
+present , extra cost: 595.0 
+none , extra cost: 0.0 
+choice : present
+
